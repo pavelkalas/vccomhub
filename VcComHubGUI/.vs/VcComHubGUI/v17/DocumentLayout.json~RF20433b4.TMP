@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\VcComHubGUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{094EF5A4-B62D-446C-BD9F-9B64B4CABA65}|..\\VcComHubDMS\\VcComHubDMS.csproj|c:\\users\\pc\\source\\repos\\vccomhubdms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E015AB6B-452E-4F12-B4B0-192D8EA80BEF}|..\\VcComHub.Network\\VcComHub.Network.csproj|c:\\users\\pc\\source\\repos\\vccomhub.network\\networkstruct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E015AB6B-452E-4F12-B4B0-192D8EA80BEF}|..\\VcComHub.Network\\VcComHub.Network.csproj|c:\\users\\pc\\source\\repos\\vccomhub.network\\masterserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4346C5-11C2-429D-A78F-1AB0E656573B}|VcComHubGUI.csproj|c:\\users\\pc\\source\\repos\\vccomhubgui\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4346C5-11C2-429D-A78F-1AB0E656573B}|VcComHubGUI.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74D8EB93-8B01-4F6A-B417-B47013F3F8FC}|..\\VcComHub.ConfigParser\\VcComHub.ConfigParser.csproj|c:\\users\\pc\\source\\repos\\vccomhub.configparser\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4346C5-11C2-429D-A78F-1AB0E656573B}|VcComHubGUI.csproj|c:\\users\\pc\\source\\repos\\vccomhubgui\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE4346C5-11C2-429D-A78F-1AB0E656573B}|VcComHubGUI.csproj|solutionrelative:mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4346C5-11C2-429D-A78F-1AB0E656573B}|VcComHubGUI.csproj|C:\\Users\\PC\\source\\repos\\VcComHubGUI\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4346C5-11C2-429D-A78F-1AB0E656573B}|VcComHubGUI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74D8EB93-8B01-4F6A-B417-B47013F3F8FC}|..\\VcComHub.ConfigParser\\VcComHub.ConfigParser.csproj|c:\\users\\pc\\source\\repos\\vccomhub.configparser\\configstruct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5F71536-7BD2-422A-BCFB-671C17443812}|..\\VcComHub.Loader\\VcComHub.Loader.csproj|c:\\users\\pc\\source\\repos\\vccomhub.loader\\loader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NetworkStruct.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\VcComHub.Network\\NetworkStruct.cs",
+              "RelativeDocumentMoniker": "..\\VcComHub.Network\\NetworkStruct.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\VcComHub.Network\\NetworkStruct.cs",
+              "RelativeToolTip": "..\\VcComHub.Network\\NetworkStruct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T14:59:59.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MasterServer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\VcComHub.Network\\MasterServer.cs",
+              "RelativeDocumentMoniker": "..\\VcComHub.Network\\MasterServer.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\VcComHub.Network\\MasterServer.cs",
+              "RelativeToolTip": "..\\VcComHub.Network\\MasterServer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T14:59:26.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\VcComHubDMS\\Program.cs",
+              "RelativeDocumentMoniker": "..\\VcComHubDMS\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\VcComHubDMS\\Program.cs",
+              "RelativeToolTip": "..\\VcComHubDMS\\Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T13:33:56.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\VcComHubGUI\\MainWindow.cs",
+              "RelativeDocumentMoniker": "MainWindow.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\VcComHubGUI\\MainWindow.cs",
+              "RelativeToolTip": "MainWindow.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAQwEkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T15:50:52.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\VcComHubGUI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\VcComHubGUI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T15:50:47.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Loader.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\VcComHub.Loader\\Loader.cs",
+              "RelativeDocumentMoniker": "..\\VcComHub.Loader\\Loader.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\VcComHub.Loader\\Loader.cs",
+              "RelativeToolTip": "..\\VcComHub.Loader\\Loader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T13:41:53.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConfigStruct.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\VcComHub.ConfigParser\\ConfigStruct.cs",
+              "RelativeDocumentMoniker": "..\\VcComHub.ConfigParser\\ConfigStruct.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\VcComHub.ConfigParser\\ConfigStruct.cs",
+              "RelativeToolTip": "..\\VcComHub.ConfigParser\\ConfigStruct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T13:30:45.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\VcComHub.ConfigParser\\Config.cs",
+              "RelativeDocumentMoniker": "..\\VcComHub.ConfigParser\\Config.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\VcComHub.ConfigParser\\Config.cs",
+              "RelativeToolTip": "..\\VcComHub.ConfigParser\\Config.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwGoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T13:29:23.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.cs [N\u00E1vrh]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\VcComHubGUI\\MainWindow.cs",
+              "RelativeDocumentMoniker": "MainWindow.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\VcComHubGUI\\MainWindow.cs [N\u00E1vrh]",
+              "RelativeToolTip": "MainWindow.cs [N\u00E1vrh]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T13:27:49.366Z",
+              "EditorCaption": " [N\u00E1vrh]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

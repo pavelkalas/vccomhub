@@ -1,0 +1,24 @@
+C:\Users\PC\source\repos\VcComHub.FileSystem\bin\Debug\VcComHub.FileSystem.dll
+C:\Users\PC\source\repos\VcComHub.FileSystem\bin\Debug\VcComHub.FileSystem.pdb
+C:\Users\PC\source\repos\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.dll
+C:\Users\PC\source\repos\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.pdb
+C:\Users\Yung Ricci\source\repos\VcComHub.FileSystem\bin\Debug\VcComHub.FileSystem.dll
+C:\Users\Yung Ricci\source\repos\VcComHub.FileSystem\bin\Debug\VcComHub.FileSystem.pdb
+C:\Users\Yung Ricci\source\repos\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.csproj.AssemblyReference.cache
+C:\Users\Yung Ricci\source\repos\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.csproj.CoreCompileInputs.cache
+C:\Users\Yung Ricci\source\repos\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.dll
+C:\Users\Yung Ricci\source\repos\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.pdb
+D:\VcComHub.FileSystem\bin\Debug\VcComHub.FileSystem.dll
+D:\VcComHub.FileSystem\bin\Debug\VcComHub.FileSystem.pdb
+D:\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.csproj.AssemblyReference.cache
+D:\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.csproj.CoreCompileInputs.cache
+D:\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.dll
+D:\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.pdb
+F:\VcComHub.FileSystem\bin\Debug\VcComHub.FileSystem.dll
+F:\VcComHub.FileSystem\bin\Debug\VcComHub.FileSystem.pdb
+F:\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.csproj.AssemblyReference.cache
+F:\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.csproj.CoreCompileInputs.cache
+F:\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.dll
+F:\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.pdb

@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112314862-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112314862-1');
+</script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Servers | Vietcong1.eu</title>
+
+  <link rel="stylesheet" href="/css/jungle.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/flags/flags.css">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <script src="/js/scripts.min.js"></script>
+</head>
+
+<body role="document">
+
+<div class="wrapper">
+
+<div class="fixed">
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="/en/">Vietcong1.eu</a> &raquo; Servers</h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    </ul>
+
+    <section class="top-bar-section">
+<ul class="right">
+
+	<li><a href="/en/game/faq">FAQ</a>
+
+	<li class="has-dropdown">
+		<a href="/en/game/">Lists</a>
+		<ul class="dropdown">
+			<li><a href="/en/game/">Servers</a>
+			<li><a href="/en/game/players">Players</a>
+			<li><a href="/en/maps/">Maps</a>
+			<li><a href="/en/maps/gallery">Last Pictures</a>
+			<li><a href="/en/maps/gallery/random">Random Pictures</a>
+		</ul>
+
+	<li class="has-dropdown">
+		<a href="/en/game/settings">Settings</a>
+		<ul class="dropdown">
+			<li><a href="/en/game/settings">Runner</a>
+			<li class="has-dropdown">
+				<a href="#">Style</a>
+				<ul class="dropdown">
+					<li><a href="/en/game/?style=jungle">Jungle</a>
+					<li><a href="/en/game/?style=golden">Golden</a>
+				</ul>
+		</ul>
+
+
+	<li>
+		<a title="ÄŚesky" href="/cs/game/">
+			<img src="/blank.gif" class="flag flag-cz" alt="ÄŚesky">
+		</a>
+	</li>
+
+	<li class="has-dropdown">
+		<a href="#">Not signed in</a>
+		<ul class="dropdown">
+			<li><a href="/en/sign/">Sign In</a>
+			<li><a href="/en/sign/lost">Lost Password</a>
+			<li><a href="/en/users/register">Registration</a>
+		</ul>
+	</li>
+
+</ul>
+    </section>
+  </nav>
+</div>
+
+<div class="row">
+  <section class="large-10 large-centered columns" role="main">
+<div id="snippet--flashMessages"></div>
+<div class="flash error">
+
+<h2>Vietcong1.eu is a new master server!</h3>
+<p>Just update your <code>hosts</code> file:
+<pre>46.28.109.117 master.gamespy.com</pre>
+<p><a class="button expand" href="/en/game/faq">More info</a>
+
+</div>
+
+
+
+<div id="snippet-serversList-grid">
+
+<form action="/en/game/" method="get" id="frm-serversList-form" class="ajax grido">    <div class="filter outer">
+        <div class="items">
+            <span class="grid-filter-name">
+                <label for="frm-serversList-form-filters-name">Name</label>
+                <input type="text" name="filters[name]" class="text suggest form-control" autocomplete="off" data-grido-suggest-replacement="-query-" data-grido-suggest-limit="10" data-grido-suggest-handler="/en/game/?serversList-filters-name-query=-query-&amp;do=serversList-filters-name-suggest" id="frm-serversList-form-filters-name" value="">
+            </span>
+            <span class="grid-filter-map">
+                <label for="frm-serversList-form-filters-map">Map</label>
+                <input type="text" name="filters[map]" class="text suggest form-control" autocomplete="off" data-grido-suggest-replacement="-query-" data-grido-suggest-limit="10" data-grido-suggest-handler="/en/game/?serversList-filters-map-query=-query-&amp;do=serversList-filters-map-suggest" id="frm-serversList-form-filters-map" value="">
+            </span>
+            <span class="grid-filter-mode">
+                <label for="frm-serversList-form-filters-mode">Mode</label>
+                <select name="filters[mode]" class="form-control" id="frm-serversList-form-filters-mode"><option value=""></option><option value="1">1</option><option value=":-)">:-)</option><option value="&#64;	">@	</option><option value="AA-ATG">AA-ATG</option><option value="AAATG">AAATG</option><option value="AACTF">AACTF</option><option value="AADM">AADM</option><option value="ADM">ADM</option><option value="Airsoft">Airsoft</option><option value="asd">asd</option><option value="ATG">ATG</option><option value="ATG 4X4_BOTS">ATG 4X4_BOTS</option><option value="ATG Bomb">ATG Bomb</option><option value="ATG killall">ATG killall</option><option value="ATG Pilote">ATG Pilote</option><option value="ATG-B">ATG-B</option><option value="ATG-BOT">ATG-BOT</option><option value="ATG-Pilot">ATG-Pilot</option><option value="ATG-VCBOMB">ATG-VCBOMB</option><option value="ATG4x4">ATG4x4</option><option value="ATGB">ATGB</option><option value="ATGBomb">ATGBomb</option><option value="ATGbonb">ATGbonb</option><option value="ATGBots">ATGBots</option><option value="ATGBUS">ATGBUS</option><option value="ATGBVC">ATGBVC</option><option value="ATGCOOP">ATGCOOP</option><option value="ATGP">ATGP</option><option value="ATGPilot">ATGPilot</option><option value="ATG_B">ATG_B</option><option value="ATG_BOMBING">ATG_BOMBING</option><option value="ATG_CS">ATG_CS</option><option value="ATG_Pilot">ATG_Pilot</option><option value="ATG_USBOMB">ATG_USBOMB</option><option value="ATG_VCBomb">ATG_VCBomb</option><option value="Basecamp">Basecamp</option><option value="Boat">Boat</option><option value="BOMB_vc">BOMB_vc</option><option value="botfight">botfight</option><option value="bots">bots</option><option value="BridgeCT">BridgeCT</option><option value="BRIEF">BRIEF</option><option value="Briefing">Briefing</option><option value="C2F">C2F</option><option value="Campaign">Campaign</option><option value="Car">Car</option><option value="Care Race DM">Care Race DM</option><option value="Cars">Cars</option><option value="cAvA">cAvA</option><option value="CCTF">CCTF</option><option value="CHILL">CHILL</option><option value="CHILLVC">CHILLVC</option><option value="Colt">Colt</option><option value="Conquest">Conquest</option><option value="COOP">COOP</option><option value="Coop US">Coop US</option><option value="Coop!H">Coop!H</option><option value="Coop!L">Coop!L</option><option value="Coop!N">Coop!N</option><option value="Coop'">Coop'</option><option value="COOP-JPV">COOP-JPV</option><option value="Coop-US">Coop-US</option><option value="Coop-VC">Coop-VC</option><option value="CoopA">CoopA</option><option value="Coopb">Coopb</option><option value="CoopC">CoopC</option><option value="coopl">coopl</option><option value="CoopM">CoopM</option><option value="CoopN">CoopN</option><option value="CoopS">CoopS</option><option value="CoopTarget">CoopTarget</option><option value="CoopUS">CoopUS</option><option value="CoopV">CoopV</option><option value="CoopVA">CoopVA</option><option value="CoopVC">CoopVC</option><option value="CoopVX">CoopVX</option><option value="CoopX">CoopX</option><option value="COOP_US">COOP_US</option><option value="COOP_VC">COOP_VC</option><option value="cop">cop</option><option value="CQ">CQ</option><option value="CTF">CTF</option><option value="CTF - boats">CTF - boats</option><option value="CTF 4X4 BOTS">CTF 4X4 BOTS</option><option value="CTF 4X4_BOTS">CTF 4X4_BOTS</option><option value="CTF Bots">CTF Bots</option><option value="CTF hobbit">CTF hobbit</option><option value="CTF-">CTF-</option><option value="CTF4x4">CTF4x4</option><option value="CTF4X4Bots">CTF4X4Bots</option><option value="CTFB">CTFB</option><option value="CTFBots">CTFBots</option><option value="CTFDM">CTFDM</option><option value="CTFIZH">CTFIZH</option><option value="CTFM">CTFM</option><option value="CTFnade">CTFnade</option><option value="CTFreverse">CTFreverse</option><option value="CTFsniper">CTFsniper</option><option value="CTF_Bots">CTF_Bots</option><option value="CTF_EXTREM">CTF_EXTREM</option><option value="CTF_M79">CTF_M79</option><option value="CTF_TDB">CTF_TDB</option><option value="CTF_U.S.Bots">CTF_U.S.Bots</option><option value="CTF_with_Bots">CTF_with_Bots</option><option value="Day ATG">Day ATG</option><option value="Day CTF">Day CTF</option><option value="Day DMC">Day DMC</option><option value="Day GTP">Day GTP</option><option value="Day GTP-Beta">Day GTP-Beta</option><option value="Death Match">Death Match</option><option value="DISC">DISC</option><option value="DISCO">DISCO</option><option value="Discovery">Discovery</option><option value="DM">DM</option><option value="DM - boats">DM - boats</option><option value="DM hobbit">DM hobbit</option><option value="DM--Pistols">DM--Pistols</option><option value="DMAW">DMAW</option><option value="DMbaikal">DMbaikal</option><option value="DMC">DMC</option><option value="DMCA">DMCA</option><option value="DME">DME</option><option value="DMP">DMP</option><option value="DMPO">DMPO</option><option value="DMS">DMS</option><option value="dood">dood</option><option value="DrivingFun">DrivingFun</option><option value="DTDM">DTDM</option><option value="Duel">Duel</option><option value="EMGCTF">EMGCTF</option><option value="EXECUTION">EXECUTION</option><option value="EXP">EXP</option><option value="Extraction">Extraction</option><option value="Firework">Firework</option><option value="Frag">Frag</option><option value="FUN">FUN</option><option value="GG">GG</option><option value="GTP">GTP</option><option value="GunGame">GunGame</option><option value="gunner">gunner</option><option value="HTF">HTF</option><option value="HTL">HTL</option><option value="HTR">HTR</option><option value="INFO">INFO</option><option value="JANOSIK">JANOSIK</option><option value="JUMP">JUMP</option><option value="JUMPVC">JUMPVC</option><option value="JUMP_2016">JUMP_2016</option><option value="JUMP_LAB">JUMP_LAB</option><option value="Killshit">Killshit</option><option value="KMCTF">KMCTF</option><option value="KMDM">KMDM</option><option value="KOTH">KOTH</option><option value="KTGC">KTGC</option><option value="Labyrinth!">Labyrinth!</option><option value="LFWCoop">LFWCoop</option><option value="LMS">LMS</option><option value="lmtest">lmtest</option><option value="MAPS">MAPS</option><option value="mine">mine</option><option value="Multiplayer">Multiplayer</option><option value="NEWMAPTEST">NEWMAPTEST</option><option value="NightCTF">NightCTF</option><option value="PARTY">PARTY</option><option value="PGG">PGG</option><option value="Pilot">Pilot</option><option value="PilotColt">PilotColt</option><option value="Pistols">Pistols</option><option value="Quest">Quest</option><option value="RADIO">RADIO</option><option value="Radio2">Radio2</option><option value="Rain CTF">Rain CTF</option><option value="Rain DMC">Rain DMC</option><option value="Rain GTP">Rain GTP</option><option value="Rambo">Rambo</option><option value="Range">Range</option><option value="REAL">REAL</option><option value="Roomcoop">Roomcoop</option><option value="RP">RP</option><option value="RW">RW</option><option value="RW hobbit">RW hobbit</option><option value="SCOOP">SCOOP</option><option value="SCTF">SCTF</option><option value="SCTF2">SCTF2</option><option value="sdf">sdf</option><option value="secretgundm">secretgundm</option><option value="SEEK">SEEK</option><option value="SGDM">SGDM</option><option value="ShootingPractice">ShootingPractice</option><option value="shuhasshits">shuhasshits</option><option value="SLIDE">SLIDE</option><option value="SNIPER">SNIPER</option><option value="SSA">SSA</option><option value="SSRev">SSRev</option><option value="Swap">Swap</option><option value="TCA">TCA</option><option value="TCOOP">TCOOP</option><option value="TDM">TDM</option><option value="TDM hobbit">TDM hobbit</option><option value="TDM4x4">TDM4x4</option><option value="tdmc">tdmc</option><option value="TEST">TEST</option><option value="Test2">Test2</option><option value="TESTCOOP">TESTCOOP</option><option value="TestDrive">TestDrive</option><option value="testing">testing</option><option value="Testmode">Testmode</option><option value="Test_Drive">Test_Drive</option><option value="TEXASKEY_MASAKR">TEXASKEY_MASAKR</option><option value="TGG">TGG</option><option value="TK">TK</option><option value="TM">TM</option><option value="TourCoop">TourCoop</option><option value="Training">Training</option><option value="TT">TT</option><option value="TTF">TTF</option><option value="TWAR">TWAR</option><option value="UsCoop">UsCoop</option><option value="UsTCoop">UsTCoop</option><option value="US_COOP">US_COOP</option><option value="US_EXP">US_EXP</option><option value="VC-COOP">VC-COOP</option><option value="VCCOOP">VCCOOP</option><option value="VCOOP">VCOOP</option><option value="VCTF">VCTF</option><option value="VC_AI_test">VC_AI_test</option><option value="VC_COOP">VC_COOP</option><option value="VET_CAMDANG">VET_CAMDANG</option><option value="xoop-mayhem">xoop-mayhem</option><option value="ZnicDrogy">ZnicDrogy</option><option value="Zombie">Zombie</option><option value="Zombie_Coop">Zombie_Coop</option><option value="[KS]NVA**BIGROCK">[KS]NVA**BIGROCK</option><option value="[PRO]">[PRO]</option><option value="{-C.A-}MALVINAS">{-C.A-}MALVINAS</option></select>
+            </span>
+            <span class="grid-filter-version">
+                <label for="frm-serversList-form-filters-version">Version</label>
+                <select name="filters[version]" class="form-control" id="frm-serversList-form-filters-version"><option value=""></option><option value="1.01">1.01</option><option value="1.60" selected>1.60</option></select>
+            </span>
+            <span class="grid-filter-password">
+                <label for="frm-serversList-form-filters-password"><i class="fa fa-lock"></i></label>
+                <select name="filters[password]" class="form-control" id="frm-serversList-form-filters-password"><option value=""></option><option value="1">Yes</option><option value="0">No</option></select>
+            </span>
+        </div>
+        <div class="buttons">
+                    <input type="submit" name="buttons[search]" class="btn btn-default btn-sm search" id="frm-serversList-form-buttons-search" value="Search">
+                <input type="submit" name="buttons[reset]" class="btn btn-default btn-sm reset" id="frm-serversList-form-buttons-reset" value="Reset">
+        </div>
+    </div>
+
+<table id="serversList" class="table table-striped table-hover">
+    <thead>
+        <tr class="head">
+                <th class="grido-clmn grid-header-country">
+                        <i class="fa fa-globe"></i>
+                </th>
+                <th class="grido-clmn grid-header-name">
+                        <a class="ajax" href="/en/game/?serversList-sort%5Bname%5D=asc&amp;do=serversList-sort">Name</a>
+                        <span></span>
+                </th>
+                <th class="grido-clmn grid-header-map">
+                        <a class="ajax" href="/en/game/?serversList-sort%5Bmap%5D=asc&amp;do=serversList-sort">Map</a>
+                        <span></span>
+                </th>
+                <th class="grido-clmn grid-header-mode">
+                        Mode
+                </th>
+                <th class="grido-clmn grid-header-numplayers desc">
+                        <a class="sort ajax" href="/en/game/?serversList-sort%5Bnumplayers%5D=asc&amp;do=serversList-sort">Players</a>
+                        <span></span>
+                </th>
+                <th class="grido-clmn grid-header-password">
+                        <i class="fa fa-lock"></i>
+                </th>
+            <th class="actions center">
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td colspan="7">
+                <span class="paginator">
+                        <span class="btn btn-default btn-xs btn-mini disabled" href="/en/game/?serversList-page=0&amp;serversList-sort%5Bnumplayers%5D=desc&amp;do=serversList-page"><i class="glyphicon glyphicon-arrow-left fa fa-arrow-left icon-arrow-left"></i> Previous</span>
+                            <span class="btn btn-default btn-xs btn-mini disabled">1</span>
+                            <a class="btn btn-default btn-xs btn-mini ajax" href="/en/game/?serversList-page=2&amp;serversList-sort%5Bnumplayers%5D=desc&amp;do=serversList-page">2</a>
+                        <a class="btn btn-default btn-xs btn-mini ajax" href="/en/game/?serversList-page=2&amp;serversList-sort%5Bnumplayers%5D=desc&amp;do=serversList-page">Next <i class="glyphicon glyphicon-arrow-right fa fa-arrow-right icon-arrow-right"></i></a>
+                </span>
+                <span class="count">
+                    Items 1 - 20 of 38
+                    <select name="count" title="Items per page" class="form-control" id="frm-serversList-form-count"><option value="10">10</option><option value="20" selected>20</option><option value="30">30</option><option value="50">50</option><option value="100">100</option></select>
+                        <input type="submit" name="buttons[perPage]" id="frm-serversList-form-buttons-perPage" value="Items per page" class="hide">
+                </span>
+            </td>
+        </tr>
+    </tfoot>
+    <tbody>
+            <tr class="grid-row-298244">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="CZ" title="Czech Republic" class="flag flag-cz">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/91.139.13.19:5500">Shisha - play server</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/7-halongport">HalongPort</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            DM
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/48
+                    </td>
+                    <td class="grid-cell-password center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/91.139.13.19:5500">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298245">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="CZ" title="Czech Republic" class="flag flag-cz">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/91.139.13.19:5111">CZ COOP SERVER</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/273-gka-prisonescape-vc">GKA-PrisonEscape_VC</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            COOP
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/48
+                    </td>
+                    <td class="grid-cell-password center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/91.139.13.19:5111">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298251">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="CZ" title="Czech Republic" class="flag flag-cz">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/188.75.150.38">www.floxen.lol - 01</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/876-shoothouse11">ShootHouse11</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            COOP
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/10
+                    </td>
+                    <td class="grid-cell-password center center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/188.75.150.38">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298253">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="CZ" title="Czech Republic" class="flag flag-cz">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/188.75.150.38:5427">The_Lighthouse</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/1518-midi">Midi</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            CTF
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/32
+                    </td>
+                    <td class="grid-cell-password center center center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/188.75.150.38:5427">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298254">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="CZ" title="Czech Republic" class="flag flag-cz">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/188.75.150.38:5426">www.floxen.lol - 02</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/3059-dedale-54">Dedale_54</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            COOP
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/10
+                    </td>
+                    <td class="grid-cell-password center center center center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/188.75.150.38:5426">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298256">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="CZ" title="Czech Republic" class="flag flag-cz">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/95.85.212.73:5430">! Vietcong - Funserver #WEZ</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/136-edd-warehouse">edd_warehouse</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            COOP
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/12
+                    </td>
+                    <td class="grid-cell-password center center center center center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/95.85.212.73:5430">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298257">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="CZ" title="Czech Republic" class="flag flag-cz">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/95.85.212.73:5436">Pterodon's Stream Public</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/53-stream">Stream</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            CTF
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/50
+                    </td>
+                    <td class="grid-cell-password center center center center center center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/95.85.212.73:5436">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298267">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="FR" title="France" class="flag flag-fr">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/89.159.60.56:5427">vietcong.tk - 03</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/1518-midi">Midi</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            CTF
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/14
+                    </td>
+                    <td class="grid-cell-password center center center center center center center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/89.159.60.56:5427">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298268">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="FR" title="France" class="flag flag-fr">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/89.159.60.56:5428">vietcong.tk - 04</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/6-osgiliath-city">Osgiliath-City</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            CTF
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/14
+                    </td>
+                    <td class="grid-cell-password center center center center center center center center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/89.159.60.56:5428">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298269">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="FR" title="France" class="flag flag-fr">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/89.159.60.56:5426">vietcong.tk - 02</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/559-takedownbeta3">TakeDownBETA3</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            COOP
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/10
+                    </td>
+                    <td class="grid-cell-password center center center center center center center center center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/89.159.60.56:5426">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298270">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="" title="" class="flag flag-">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/176.102.65.132:5430">{G.S} server 1</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/29-3sf-bridge">3SF-BRIDGE</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            CTF
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/12
+                    </td>
+                    <td class="grid-cell-password center center center center center center center center center center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/176.102.65.132:5430">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298108">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="CZ" title="Czech Republic" class="flag flag-cz">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/91.139.13.19:5555">FOXTROT Gaming Server</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/7-halongport">HalongPort</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            DM
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/48
+                    </td>
+                    <td class="grid-cell-password center center center center center center center center center center center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/91.139.13.19:5555">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298132">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="FR" title="France" class="flag flag-fr">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/89.159.60.56">vietcong.tk - 01</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/644-mcf-binh-thien">[MCF]Binh_Thien</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            COOP
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/10
+                    </td>
+                    <td class="grid-cell-password center center center center center center center center center center center center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/89.159.60.56">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298163">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="CZ" title="Czech Republic" class="flag flag-cz">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/91.139.13.19:5100">-RotS- Clan server</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/34-nvabase">NVABase</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            CTF
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/64
+                    </td>
+                    <td class="grid-cell-password center center center center center center center center center center center center center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/91.139.13.19:5100">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298169">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="CZ" title="Czech Republic" class="flag flag-cz">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/91.139.13.19:5700">- uNik0rn eSport Team by Bascci</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/34-nvabase">NVABase</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            CTF
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/48
+                    </td>
+                    <td class="grid-cell-password center center center center center center center center center center center center center center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/91.139.13.19:5700">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298170">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="CZ" title="Czech Republic" class="flag flag-cz">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/91.139.13.19:5000">Vilko server</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/181-dustwild">DustWild</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            ATG
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/48
+                    </td>
+                    <td class="grid-cell-password center center center center center center center center center center center center center center center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/91.139.13.19:5000">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298171">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="GB" title="United Kingdom" class="flag flag-gb">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/51.155.130.227">vietcong.uk team coop server 01</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/665-gw-undergrounds">GW_Undergrounds</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            COOP
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/10
+                    </td>
+                    <td class="grid-cell-password center center center center center center center center center center center center center center center center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/51.155.130.227">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298204">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="GB" title="United Kingdom" class="flag flag-gb">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/51.155.130.227:5426">vietcong.uk team coop server 02</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/529-long-city-2011">Long-City-2011</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            COOP
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/10
+                    </td>
+                    <td class="grid-cell-password center center center center center center center center center center center center center center center center center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/51.155.130.227:5426">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298209">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="CZ" title="Czech Republic" class="flag flag-cz">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/95.85.212.73">ALPHA-TEAM.CZ #1</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/1018-fru-reservoir">[FRU]reservoir</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            CoopUS
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/8
+                    </td>
+                    <td class="grid-cell-password center center center center center center center center center center center center center center center center center center center">
+                            
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/95.85.212.73">Run</a>                </td>
+            </tr>
+            <tr class="grid-row-298210">
+                    <td class="grid-cell-country">
+                            <img src="/blank.gif" alt="CZ" title="Czech Republic" class="flag flag-cz">
+                    </td>
+                    <td class="grid-cell-name">
+                            <a href="/en/game/server/95.85.212.73:5426">ALPHA-TEAM.CZ #2 Private</a>
+                    </td>
+                    <td class="grid-cell-map">
+                            <a href="/en/maps/show/34-nvabase">NVABase</a>
+                    </td>
+                    <td class="grid-cell-mode">
+                            COOP
+                    </td>
+                    <td class="grid-cell-numplayers">
+                            0/8
+                    </td>
+                    <td class="grid-cell-password center center center center center center center center center center center center center center center center center center center center">
+                            <i class="fa fa-lock"></i>
+                    </td>
+                <td class="actions center">
+<a class="grid-action-run btn btn-default btn-xs btn-mini" href="/en/game/server-lnk/95.85.212.73:5426">Run</a>                </td>
+            </tr>
+    </tbody>
+</table>
+<div><input type="hidden" name="do" value="serversList-form-submit"></div>
+</form>
+</div>
+	<script>
+	gridoRefreshing("serversList");
+	</script>
+
+  </section>
+</div>
+
+<div class="push"></div>
+</div>
+
+<div class="footer">
+<div class="row">
+	<p class="text-center">
+	This is the unofficial, fan site of game Vietcong.
+	Contact:
+	<a class="email" rel="admin//vietcong1/eu">admin//vietcong1/eu</a><br>
+	Source code of servers crawler / alternative master server is available on
+	<a href="https://github.com/garncarz/nogamespy-vietcong">GitHub</a>.
+</div>
+
+</div>
+
+</body>
+</html>
+

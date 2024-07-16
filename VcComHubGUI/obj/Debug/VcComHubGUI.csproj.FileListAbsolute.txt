@@ -1,0 +1,108 @@
+C:\Users\PC\source\repos\VcComHubGUI\bin\Debug\VcComHubGUI.exe.config
+C:\Users\PC\source\repos\VcComHubGUI\bin\Debug\VcComHubGUI.exe
+C:\Users\PC\source\repos\VcComHubGUI\bin\Debug\VcComHubGUI.pdb
+C:\Users\PC\source\repos\VcComHubGUI\bin\Debug\VcComHub.ConfigParser.dll
+C:\Users\PC\source\repos\VcComHubGUI\bin\Debug\VcComHub.Loader.dll
+C:\Users\PC\source\repos\VcComHubGUI\bin\Debug\VcComHub.ConfigParser.pdb
+C:\Users\PC\source\repos\VcComHubGUI\bin\Debug\VcComHub.Loader.pdb
+C:\Users\PC\source\repos\VcComHubGUI\obj\Debug\VcComHubGUI.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\VcComHubGUI\obj\Debug\VcComHubGUI.MainWindow.resources
+C:\Users\PC\source\repos\VcComHubGUI\obj\Debug\VcComHubGUI.Properties.Resources.resources
+C:\Users\PC\source\repos\VcComHubGUI\obj\Debug\VcComHubGUI.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\VcComHubGUI\obj\Debug\VcComHubGUI.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\VcComHubGUI\obj\Debug\VcComHub.1F9382F2.Up2Date
+C:\Users\PC\source\repos\VcComHubGUI\obj\Debug\VcComHubGUI.exe
+C:\Users\PC\source\repos\VcComHubGUI\obj\Debug\VcComHubGUI.pdb
+C:\Users\PC\source\repos\VcComHubGUI\bin\Debug\VcComHub.FileSystem.dll
+C:\Users\PC\source\repos\VcComHubGUI\bin\Debug\VcComHub.FileSystem.pdb
+C:\Users\PC\source\repos\VcComHubGUI\bin\Debug\VcComHub.Network.dll
+C:\Users\PC\source\repos\VcComHubGUI\bin\Debug\VcComHub.Network.pdb
+C:\Users\PC\source\repos\VcComHubGUI\bin\Debug\VcComHub.LanguageParser.dll
+C:\Users\PC\source\repos\VcComHubGUI\bin\Debug\VcComHub.LanguageParser.pdb
+C:\Users\PC\source\repos\VcComHubGUI\bin\Debug\VcComHub.Memory.dll
+C:\Users\PC\source\repos\VcComHubGUI\bin\Debug\VcComHub.Memory.pdb
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\bin\Debug\VcComHubGUI.exe.config
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\bin\Debug\VcComHubGUI.exe
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\bin\Debug\VcComHubGUI.pdb
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\bin\Debug\VcComHub.ConfigParser.dll
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\bin\Debug\VcComHub.FileSystem.dll
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\bin\Debug\VcComHub.LanguageParser.dll
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\bin\Debug\VcComHub.Loader.dll
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\bin\Debug\VcComHub.Memory.dll
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\bin\Debug\VcComHub.Network.dll
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\bin\Debug\VcComHub.ConfigParser.pdb
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\bin\Debug\VcComHub.FileSystem.pdb
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\bin\Debug\VcComHub.LanguageParser.pdb
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\bin\Debug\VcComHub.Loader.pdb
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\bin\Debug\VcComHub.Memory.pdb
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\bin\Debug\VcComHub.Network.pdb
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\obj\Debug\VcComHubGUI.csproj.AssemblyReference.cache
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\obj\Debug\VcComHubGUI.MainWindow.resources
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\obj\Debug\VcComHubGUI.Properties.Resources.resources
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\obj\Debug\VcComHubGUI.csproj.GenerateResource.cache
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\obj\Debug\VcComHubGUI.csproj.CoreCompileInputs.cache
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\obj\Debug\VcComHub.1F9382F2.Up2Date
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\obj\Debug\VcComHubGUI.exe
+C:\Users\Yung Ricci\source\repos\VcComHubGUI\obj\Debug\VcComHubGUI.pdb
+D:\VcComHubGUI\bin\Debug\VcComHubGUI.exe.config
+D:\VcComHubGUI\bin\Debug\VcComHubGUI.exe
+D:\VcComHubGUI\bin\Debug\VcComHubGUI.pdb
+D:\VcComHubGUI\bin\Debug\VcComHub.ConfigParser.dll
+D:\VcComHubGUI\bin\Debug\VcComHub.FileSystem.dll
+D:\VcComHubGUI\bin\Debug\VcComHub.LanguageParser.dll
+D:\VcComHubGUI\bin\Debug\VcComHub.Loader.dll
+D:\VcComHubGUI\bin\Debug\VcComHub.Memory.dll
+D:\VcComHubGUI\bin\Debug\VcComHub.Network.dll
+D:\VcComHubGUI\bin\Debug\VcComHub.ConfigParser.pdb
+D:\VcComHubGUI\bin\Debug\VcComHub.FileSystem.pdb
+D:\VcComHubGUI\bin\Debug\VcComHub.LanguageParser.pdb
+D:\VcComHubGUI\bin\Debug\VcComHub.Loader.pdb
+D:\VcComHubGUI\bin\Debug\VcComHub.Memory.pdb
+D:\VcComHubGUI\bin\Debug\VcComHub.Network.pdb
+D:\VcComHubGUI\obj\Debug\VcComHubGUI.csproj.AssemblyReference.cache
+D:\VcComHubGUI\obj\Debug\VcComHubGUI.MainWindow.resources
+D:\VcComHubGUI\obj\Debug\VcComHubGUI.Properties.Resources.resources
+D:\VcComHubGUI\obj\Debug\VcComHubGUI.csproj.GenerateResource.cache
+D:\VcComHubGUI\obj\Debug\VcComHubGUI.csproj.CoreCompileInputs.cache
+D:\VcComHubGUI\obj\Debug\VcComHub.1F9382F2.Up2Date
+D:\VcComHubGUI\obj\Debug\VcComHubGUI.exe
+D:\VcComHubGUI\obj\Debug\VcComHubGUI.pdb
+D:\VcComHubGUI\bin\Debug\VcComHub.Automation.dll
+D:\VcComHubGUI\bin\Debug\VcComHub.Automation.pdb
+D:\VcComHubGUI\bin\Debug\DiscordRPC.dll
+D:\VcComHubGUI\bin\Debug\Newtonsoft.Json.dll
+D:\VcComHubGUI\bin\Debug\DiscordRPC.pdb
+D:\VcComHubGUI\bin\Debug\DiscordRPC.xml
+D:\VcComHubGUI\bin\Debug\Newtonsoft.Json.xml
+F:\VcComHubGUI\obj\Debug\VcComHubGUI.csproj.AssemblyReference.cache
+F:\VcComHubGUI\obj\Debug\VcComHubGUI.GUIs.LoadingWindow.resources
+F:\VcComHubGUI\obj\Debug\VcComHubGUI.MainWindow.resources
+F:\VcComHubGUI\obj\Debug\VcComHubGUI.Properties.Resources.resources
+F:\VcComHubGUI\obj\Debug\VcComHubGUI.csproj.GenerateResource.cache
+F:\VcComHubGUI\obj\Debug\VcComHubGUI.csproj.CoreCompileInputs.cache
+F:\VcComHubGUI\bin\Debug\VcComHubGUI.exe.config
+F:\VcComHubGUI\bin\Debug\VcComHubGUI.exe
+F:\VcComHubGUI\bin\Debug\VcComHubGUI.pdb
+F:\VcComHubGUI\bin\Debug\DiscordRPC.dll
+F:\VcComHubGUI\bin\Debug\Newtonsoft.Json.dll
+F:\VcComHubGUI\bin\Debug\VcComHub.Automation.dll
+F:\VcComHubGUI\bin\Debug\VcComHub.ConfigParser.dll
+F:\VcComHubGUI\bin\Debug\VcComHub.FileSystem.dll
+F:\VcComHubGUI\bin\Debug\VcComHub.LanguageParser.dll
+F:\VcComHubGUI\bin\Debug\VcComHub.Loader.dll
+F:\VcComHubGUI\bin\Debug\VcComHub.Memory.dll
+F:\VcComHubGUI\bin\Debug\VcComHub.Network.dll
+F:\VcComHubGUI\bin\Debug\DiscordRPC.pdb
+F:\VcComHubGUI\bin\Debug\DiscordRPC.xml
+F:\VcComHubGUI\bin\Debug\Newtonsoft.Json.xml
+F:\VcComHubGUI\bin\Debug\VcComHub.Automation.pdb
+F:\VcComHubGUI\bin\Debug\VcComHub.ConfigParser.pdb
+F:\VcComHubGUI\bin\Debug\VcComHub.FileSystem.pdb
+F:\VcComHubGUI\bin\Debug\VcComHub.LanguageParser.pdb
+F:\VcComHubGUI\bin\Debug\VcComHub.Loader.pdb
+F:\VcComHubGUI\bin\Debug\VcComHub.Memory.pdb
+F:\VcComHubGUI\bin\Debug\VcComHub.Network.pdb
+F:\VcComHubGUI\obj\Debug\VcComHub.1F9382F2.Up2Date
+F:\VcComHubGUI\obj\Debug\VcComHubGUI.exe
+F:\VcComHubGUI\obj\Debug\VcComHubGUI.pdb
+F:\VcComHubGUI\obj\Debug\VcComHubGUI.GUIs.AddonSelector.resources
