@@ -22,3 +22,9 @@ F:\VcComHub.Memory\obj\Debug\VcComHub.Memory.csproj.AssemblyReference.cache
 F:\VcComHub.Memory\obj\Debug\VcComHub.Memory.csproj.CoreCompileInputs.cache
 F:\VcComHub.Memory\obj\Debug\VcComHub.Memory.dll
 F:\VcComHub.Memory\obj\Debug\VcComHub.Memory.pdb
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Memory\bin\Debug\VcComHub.Memory.dll
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Memory\bin\Debug\VcComHub.Memory.pdb
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Memory\obj\Debug\VcComHub.Memory.csproj.AssemblyReference.cache
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Memory\obj\Debug\VcComHub.Memory.csproj.CoreCompileInputs.cache
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Memory\obj\Debug\VcComHub.Memory.dll
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Memory\obj\Debug\VcComHub.Memory.pdb

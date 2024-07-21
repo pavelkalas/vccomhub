@@ -16,3 +16,9 @@ F:\VcComHub.Network\obj\Debug\VcComHub.Network.csproj.AssemblyReference.cache
 F:\VcComHub.Network\obj\Debug\VcComHub.Network.csproj.CoreCompileInputs.cache
 F:\VcComHub.Network\obj\Debug\VcComHub.Network.dll
 F:\VcComHub.Network\obj\Debug\VcComHub.Network.pdb
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Network\bin\Debug\VcComHub.Network.dll
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Network\bin\Debug\VcComHub.Network.pdb
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Network\obj\Debug\VcComHub.Network.csproj.AssemblyReference.cache
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Network\obj\Debug\VcComHub.Network.csproj.CoreCompileInputs.cache
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Network\obj\Debug\VcComHub.Network.dll
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Network\obj\Debug\VcComHub.Network.pdb

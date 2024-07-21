@@ -22,3 +22,9 @@ F:\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.csproj.AssemblyReference.ca
 F:\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.csproj.CoreCompileInputs.cache
 F:\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.dll
 F:\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.pdb
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.FileSystem\bin\Debug\VcComHub.FileSystem.dll
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.FileSystem\bin\Debug\VcComHub.FileSystem.pdb
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.csproj.AssemblyReference.cache
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.csproj.CoreCompileInputs.cache
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.dll
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.FileSystem\obj\Debug\VcComHub.FileSystem.pdb

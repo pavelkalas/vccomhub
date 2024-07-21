@@ -16,3 +16,9 @@ F:\VcComHub.Loader\obj\Debug\VcComHub.Loader.csproj.AssemblyReference.cache
 F:\VcComHub.Loader\obj\Debug\VcComHub.Loader.csproj.CoreCompileInputs.cache
 F:\VcComHub.Loader\obj\Debug\VcComHub.Loader.dll
 F:\VcComHub.Loader\obj\Debug\VcComHub.Loader.pdb
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Loader\bin\Debug\VcComHub.Loader.dll
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Loader\bin\Debug\VcComHub.Loader.pdb
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Loader\obj\Debug\VcComHub.Loader.csproj.AssemblyReference.cache
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Loader\obj\Debug\VcComHub.Loader.csproj.CoreCompileInputs.cache
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Loader\obj\Debug\VcComHub.Loader.dll
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.Loader\obj\Debug\VcComHub.Loader.pdb

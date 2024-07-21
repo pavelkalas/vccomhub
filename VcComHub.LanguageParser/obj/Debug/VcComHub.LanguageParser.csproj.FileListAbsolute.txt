@@ -16,3 +16,9 @@ F:\VcComHub.LanguageParser\obj\Debug\VcComHub.LanguageParser.csproj.AssemblyRefe
 F:\VcComHub.LanguageParser\obj\Debug\VcComHub.LanguageParser.csproj.CoreCompileInputs.cache
 F:\VcComHub.LanguageParser\obj\Debug\VcComHub.LanguageParser.dll
 F:\VcComHub.LanguageParser\obj\Debug\VcComHub.LanguageParser.pdb
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.LanguageParser\bin\Debug\VcComHub.LanguageParser.dll
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.LanguageParser\bin\Debug\VcComHub.LanguageParser.pdb
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.LanguageParser\obj\Debug\VcComHub.LanguageParser.csproj.AssemblyReference.cache
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.LanguageParser\obj\Debug\VcComHub.LanguageParser.csproj.CoreCompileInputs.cache
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.LanguageParser\obj\Debug\VcComHub.LanguageParser.dll
+C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.LanguageParser\obj\Debug\VcComHub.LanguageParser.pdb

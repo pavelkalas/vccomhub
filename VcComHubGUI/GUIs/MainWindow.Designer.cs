@@ -31,6 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             this.TabPageControl = new System.Windows.Forms.TabControl();
             this.WelcomeTab = new System.Windows.Forms.TabPage();
+            this.OpenGitLinkLbl = new System.Windows.Forms.LinkLabel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.SectionsLbl = new System.Windows.Forms.Label();
             this.SectionDescribeLbl = new System.Windows.Forms.Label();
             this.WhatWeDoinLbl = new System.Windows.Forms.Label();
@@ -109,20 +112,17 @@
             this.OpenLogsFolder = new System.Windows.Forms.Button();
             this.OpenAddonsFolderBtn = new System.Windows.Forms.Button();
             this.OpenGameFolderBtn = new System.Windows.Forms.Button();
-            this.RunGame = new System.Windows.Forms.Button();
             this.AboutTab = new System.Windows.Forms.TabPage();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.OpenGitLinkLbl = new System.Windows.Forms.LinkLabel();
+            this.RunGame = new System.Windows.Forms.Button();
             this.TabPageControl.SuspendLayout();
             this.WelcomeTab.SuspendLayout();
             this.ConfigurationTab.SuspendLayout();
@@ -175,6 +175,39 @@
             this.WelcomeTab.TabIndex = 0;
             this.WelcomeTab.Text = "Welcome";
             this.WelcomeTab.UseVisualStyleBackColor = true;
+            // 
+            // OpenGitLinkLbl
+            // 
+            this.OpenGitLinkLbl.AutoSize = true;
+            this.OpenGitLinkLbl.Location = new System.Drawing.Point(791, 422);
+            this.OpenGitLinkLbl.Name = "OpenGitLinkLbl";
+            this.OpenGitLinkLbl.Size = new System.Drawing.Size(120, 17);
+            this.OpenGitLinkLbl.TabIndex = 7;
+            this.OpenGitLinkLbl.TabStop = true;
+            this.OpenGitLinkLbl.Text = "GitHub(VcComHub)";
+            this.OpenGitLinkLbl.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OpenGitLinkLbl_LinkClicked);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label12.Location = new System.Drawing.Point(20, 422);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(296, 17);
+            this.label12.TabIndex = 6;
+            this.label12.Text = "(C) Delta Devs 2024-present. All rights reserved.";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label11.Location = new System.Drawing.Point(603, 422);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(175, 17);
+            this.label11.TabIndex = 5;
+            this.label11.Text = "This is open-source project!";
             // 
             // SectionsLbl
             // 
@@ -263,7 +296,7 @@
             this.PlayerNameTxt.Location = new System.Drawing.Point(155, 48);
             this.PlayerNameTxt.MaxLength = 20;
             this.PlayerNameTxt.Name = "PlayerNameTxt";
-            this.PlayerNameTxt.Size = new System.Drawing.Size(153, 25);
+            this.PlayerNameTxt.Size = new System.Drawing.Size(194, 25);
             this.PlayerNameTxt.TabIndex = 19;
             // 
             // ConfiguationPlayerLbl
@@ -311,7 +344,7 @@
             // 
             this.ShowProfCheck.AutoSize = true;
             this.ShowProfCheck.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.ShowProfCheck.Location = new System.Drawing.Point(33, 138);
+            this.ShowProfCheck.Location = new System.Drawing.Point(33, 147);
             this.ShowProfCheck.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ShowProfCheck.Name = "ShowProfCheck";
             this.ShowProfCheck.Size = new System.Drawing.Size(183, 19);
@@ -323,7 +356,7 @@
             // 
             this.ShowFpsCheck.AutoSize = true;
             this.ShowFpsCheck.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.ShowFpsCheck.Location = new System.Drawing.Point(33, 122);
+            this.ShowFpsCheck.Location = new System.Drawing.Point(33, 128);
             this.ShowFpsCheck.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ShowFpsCheck.Name = "ShowFpsCheck";
             this.ShowFpsCheck.Size = new System.Drawing.Size(149, 19);
@@ -335,7 +368,7 @@
             // 
             this.StartGameWithoutAskCheck.AutoSize = true;
             this.StartGameWithoutAskCheck.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.StartGameWithoutAskCheck.Location = new System.Drawing.Point(33, 105);
+            this.StartGameWithoutAskCheck.Location = new System.Drawing.Point(33, 109);
             this.StartGameWithoutAskCheck.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.StartGameWithoutAskCheck.Name = "StartGameWithoutAskCheck";
             this.StartGameWithoutAskCheck.Size = new System.Drawing.Size(231, 19);
@@ -370,7 +403,7 @@
             // 
             this.AddonsListLbl.AutoSize = true;
             this.AddonsListLbl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.AddonsListLbl.Location = new System.Drawing.Point(481, 49);
+            this.AddonsListLbl.Location = new System.Drawing.Point(483, 53);
             this.AddonsListLbl.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.AddonsListLbl.Name = "AddonsListLbl";
             this.AddonsListLbl.Size = new System.Drawing.Size(86, 15);
@@ -382,7 +415,7 @@
             this.AddonListView.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.AddonListView.FormattingEnabled = true;
             this.AddonListView.ItemHeight = 15;
-            this.AddonListView.Location = new System.Drawing.Point(484, 67);
+            this.AddonListView.Location = new System.Drawing.Point(486, 71);
             this.AddonListView.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.AddonListView.Name = "AddonListView";
             this.AddonListView.Size = new System.Drawing.Size(146, 64);
@@ -393,7 +426,7 @@
             this.LanguageSelectorList.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.LanguageSelectorList.FormattingEnabled = true;
             this.LanguageSelectorList.ItemHeight = 15;
-            this.LanguageSelectorList.Location = new System.Drawing.Point(657, 67);
+            this.LanguageSelectorList.Location = new System.Drawing.Point(681, 71);
             this.LanguageSelectorList.Name = "LanguageSelectorList";
             this.LanguageSelectorList.Size = new System.Drawing.Size(146, 64);
             this.LanguageSelectorList.TabIndex = 17;
@@ -403,7 +436,7 @@
             // 
             this.AutoFetchCheck.AutoSize = true;
             this.AutoFetchCheck.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.AutoFetchCheck.Location = new System.Drawing.Point(33, 88);
+            this.AutoFetchCheck.Location = new System.Drawing.Point(33, 90);
             this.AutoFetchCheck.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.AutoFetchCheck.Name = "AutoFetchCheck";
             this.AutoFetchCheck.Size = new System.Drawing.Size(199, 19);
@@ -415,7 +448,7 @@
             // 
             this.ConfigurationLangLbl.AutoSize = true;
             this.ConfigurationLangLbl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.ConfigurationLangLbl.Location = new System.Drawing.Point(654, 49);
+            this.ConfigurationLangLbl.Location = new System.Drawing.Point(678, 53);
             this.ConfigurationLangLbl.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.ConfigurationLangLbl.Name = "ConfigurationLangLbl";
             this.ConfigurationLangLbl.Size = new System.Drawing.Size(155, 15);
@@ -476,7 +509,7 @@
             this.BrowseVcDirBtn.Location = new System.Drawing.Point(462, 44);
             this.BrowseVcDirBtn.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.BrowseVcDirBtn.Name = "BrowseVcDirBtn";
-            this.BrowseVcDirBtn.Size = new System.Drawing.Size(105, 25);
+            this.BrowseVcDirBtn.Size = new System.Drawing.Size(117, 25);
             this.BrowseVcDirBtn.TabIndex = 2;
             this.BrowseVcDirBtn.Text = "Browse...";
             this.BrowseVcDirBtn.UseVisualStyleBackColor = true;
@@ -497,7 +530,7 @@
             // 
             this.VcAddonsDirTxt.Enabled = false;
             this.VcAddonsDirTxt.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.VcAddonsDirTxt.Location = new System.Drawing.Point(107, 70);
+            this.VcAddonsDirTxt.Location = new System.Drawing.Point(107, 78);
             this.VcAddonsDirTxt.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.VcAddonsDirTxt.Name = "VcAddonsDirTxt";
             this.VcAddonsDirTxt.Size = new System.Drawing.Size(345, 25);
@@ -507,10 +540,10 @@
             // 
             this.BrowseAddonsDirBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BrowseAddonsDirBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.BrowseAddonsDirBtn.Location = new System.Drawing.Point(462, 70);
+            this.BrowseAddonsDirBtn.Location = new System.Drawing.Point(462, 78);
             this.BrowseAddonsDirBtn.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.BrowseAddonsDirBtn.Name = "BrowseAddonsDirBtn";
-            this.BrowseAddonsDirBtn.Size = new System.Drawing.Size(105, 25);
+            this.BrowseAddonsDirBtn.Size = new System.Drawing.Size(117, 25);
             this.BrowseAddonsDirBtn.TabIndex = 6;
             this.BrowseAddonsDirBtn.Text = "Browse...";
             this.BrowseAddonsDirBtn.UseVisualStyleBackColor = true;
@@ -520,7 +553,7 @@
             // 
             this.AddonsPathLbl.AutoSize = true;
             this.AddonsPathLbl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.AddonsPathLbl.Location = new System.Drawing.Point(27, 75);
+            this.AddonsPathLbl.Location = new System.Drawing.Point(27, 83);
             this.AddonsPathLbl.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.AddonsPathLbl.Name = "AddonsPathLbl";
             this.AddonsPathLbl.Size = new System.Drawing.Size(78, 15);
@@ -531,7 +564,7 @@
             // 
             this.SaveConfigBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SaveConfigBtn.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.SaveConfigBtn.Location = new System.Drawing.Point(708, 403);
+            this.SaveConfigBtn.Location = new System.Drawing.Point(708, 412);
             this.SaveConfigBtn.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.SaveConfigBtn.Name = "SaveConfigBtn";
             this.SaveConfigBtn.Size = new System.Drawing.Size(202, 28);
@@ -563,7 +596,7 @@
             this.UnselectServerBtn.Enabled = false;
             this.UnselectServerBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.UnselectServerBtn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.UnselectServerBtn.Location = new System.Drawing.Point(569, 403);
+            this.UnselectServerBtn.Location = new System.Drawing.Point(562, 86);
             this.UnselectServerBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.UnselectServerBtn.Name = "UnselectServerBtn";
             this.UnselectServerBtn.Size = new System.Drawing.Size(166, 28);
@@ -576,7 +609,7 @@
             // 
             this.SelectedServerLbl.AutoSize = true;
             this.SelectedServerLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.SelectedServerLbl.Location = new System.Drawing.Point(20, 403);
+            this.SelectedServerLbl.Location = new System.Drawing.Point(20, 405);
             this.SelectedServerLbl.Name = "SelectedServerLbl";
             this.SelectedServerLbl.Size = new System.Drawing.Size(138, 17);
             this.SelectedServerLbl.TabIndex = 5;
@@ -587,7 +620,7 @@
             // 
             this.MultiplayerStatusLbl.AutoSize = true;
             this.MultiplayerStatusLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.MultiplayerStatusLbl.Location = new System.Drawing.Point(20, 100);
+            this.MultiplayerStatusLbl.Location = new System.Drawing.Point(20, 97);
             this.MultiplayerStatusLbl.Name = "MultiplayerStatusLbl";
             this.MultiplayerStatusLbl.Size = new System.Drawing.Size(246, 17);
             this.MultiplayerStatusLbl.TabIndex = 4;
@@ -597,7 +630,7 @@
             // 
             this.RefreshServersBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RefreshServersBtn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.RefreshServersBtn.Location = new System.Drawing.Point(736, 403);
+            this.RefreshServersBtn.Location = new System.Drawing.Point(736, 86);
             this.RefreshServersBtn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RefreshServersBtn.Name = "RefreshServersBtn";
             this.RefreshServersBtn.Size = new System.Drawing.Size(166, 28);
@@ -896,7 +929,7 @@
             // OpenNotepadBtn
             // 
             this.OpenNotepadBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OpenNotepadBtn.Location = new System.Drawing.Point(543, 24);
+            this.OpenNotepadBtn.Location = new System.Drawing.Point(557, 24);
             this.OpenNotepadBtn.Name = "OpenNotepadBtn";
             this.OpenNotepadBtn.Size = new System.Drawing.Size(115, 30);
             this.OpenNotepadBtn.TabIndex = 9;
@@ -907,7 +940,7 @@
             // OpenCommandPromptBtn
             // 
             this.OpenCommandPromptBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OpenCommandPromptBtn.Location = new System.Drawing.Point(365, 24);
+            this.OpenCommandPromptBtn.Location = new System.Drawing.Point(374, 24);
             this.OpenCommandPromptBtn.Name = "OpenCommandPromptBtn";
             this.OpenCommandPromptBtn.Size = new System.Drawing.Size(177, 30);
             this.OpenCommandPromptBtn.TabIndex = 8;
@@ -918,7 +951,7 @@
             // OpenVcStarterBtn
             // 
             this.OpenVcStarterBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OpenVcStarterBtn.Location = new System.Drawing.Point(244, 24);
+            this.OpenVcStarterBtn.Location = new System.Drawing.Point(253, 24);
             this.OpenVcStarterBtn.Name = "OpenVcStarterBtn";
             this.OpenVcStarterBtn.Size = new System.Drawing.Size(115, 30);
             this.OpenVcStarterBtn.TabIndex = 7;
@@ -929,7 +962,7 @@
             // RunServerBtn
             // 
             this.RunServerBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RunServerBtn.Location = new System.Drawing.Point(128, 24);
+            this.RunServerBtn.Location = new System.Drawing.Point(133, 24);
             this.RunServerBtn.Name = "RunServerBtn";
             this.RunServerBtn.Size = new System.Drawing.Size(115, 30);
             this.RunServerBtn.TabIndex = 6;
@@ -967,7 +1000,7 @@
             // OpenConsoleBtn
             // 
             this.OpenConsoleBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OpenConsoleBtn.Location = new System.Drawing.Point(733, 24);
+            this.OpenConsoleBtn.Location = new System.Drawing.Point(769, 24);
             this.OpenConsoleBtn.Name = "OpenConsoleBtn";
             this.OpenConsoleBtn.Size = new System.Drawing.Size(119, 30);
             this.OpenConsoleBtn.TabIndex = 6;
@@ -978,7 +1011,7 @@
             // OpenChatlogBtn
             // 
             this.OpenChatlogBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OpenChatlogBtn.Location = new System.Drawing.Point(613, 24);
+            this.OpenChatlogBtn.Location = new System.Drawing.Point(644, 24);
             this.OpenChatlogBtn.Name = "OpenChatlogBtn";
             this.OpenChatlogBtn.Size = new System.Drawing.Size(119, 30);
             this.OpenChatlogBtn.TabIndex = 5;
@@ -989,7 +1022,7 @@
             // OpenMapsFolderBtn
             // 
             this.OpenMapsFolderBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OpenMapsFolderBtn.Location = new System.Drawing.Point(476, 24);
+            this.OpenMapsFolderBtn.Location = new System.Drawing.Point(495, 24);
             this.OpenMapsFolderBtn.Name = "OpenMapsFolderBtn";
             this.OpenMapsFolderBtn.Size = new System.Drawing.Size(115, 30);
             this.OpenMapsFolderBtn.TabIndex = 4;
@@ -1000,7 +1033,7 @@
             // OpenDevFolderBtn
             // 
             this.OpenDevFolderBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OpenDevFolderBtn.Location = new System.Drawing.Point(360, 24);
+            this.OpenDevFolderBtn.Location = new System.Drawing.Point(374, 24);
             this.OpenDevFolderBtn.Name = "OpenDevFolderBtn";
             this.OpenDevFolderBtn.Size = new System.Drawing.Size(115, 30);
             this.OpenDevFolderBtn.TabIndex = 3;
@@ -1011,7 +1044,7 @@
             // OpenLogsFolder
             // 
             this.OpenLogsFolder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OpenLogsFolder.Location = new System.Drawing.Point(244, 24);
+            this.OpenLogsFolder.Location = new System.Drawing.Point(253, 24);
             this.OpenLogsFolder.Name = "OpenLogsFolder";
             this.OpenLogsFolder.Size = new System.Drawing.Size(115, 30);
             this.OpenLogsFolder.TabIndex = 2;
@@ -1022,7 +1055,7 @@
             // OpenAddonsFolderBtn
             // 
             this.OpenAddonsFolderBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OpenAddonsFolderBtn.Location = new System.Drawing.Point(128, 24);
+            this.OpenAddonsFolderBtn.Location = new System.Drawing.Point(132, 24);
             this.OpenAddonsFolderBtn.Name = "OpenAddonsFolderBtn";
             this.OpenAddonsFolderBtn.Size = new System.Drawing.Size(115, 30);
             this.OpenAddonsFolderBtn.TabIndex = 1;
@@ -1040,20 +1073,6 @@
             this.OpenGameFolderBtn.Text = "Game folder";
             this.OpenGameFolderBtn.UseVisualStyleBackColor = true;
             this.OpenGameFolderBtn.Click += new System.EventHandler(this.OpenGameFolderBtn_Click);
-            // 
-            // RunGame
-            // 
-            this.RunGame.Dock = System.Windows.Forms.DockStyle.Top;
-            this.RunGame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RunGame.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.RunGame.Location = new System.Drawing.Point(0, 0);
-            this.RunGame.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.RunGame.Name = "RunGame";
-            this.RunGame.Size = new System.Drawing.Size(930, 38);
-            this.RunGame.TabIndex = 1;
-            this.RunGame.Text = "⬇ QUICK LAUNCH ⬇";
-            this.RunGame.UseVisualStyleBackColor = true;
-            this.RunGame.Click += new System.EventHandler(this.QuickLaunchBtn);
             // 
             // AboutTab
             // 
@@ -1073,6 +1092,79 @@
             this.AboutTab.TabIndex = 5;
             this.AboutTab.Text = "About";
             this.AboutTab.UseVisualStyleBackColor = true;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(636, 364);
+            this.label10.MaximumSize = new System.Drawing.Size(840, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(89, 51);
+            this.label10.TabIndex = 14;
+            this.label10.Text = "Translation:\r\n    Jiskra\r\n     Email: N/A";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(375, 364);
+            this.label9.MaximumSize = new System.Drawing.Size(840, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(219, 51);
+            this.label9.TabIndex = 13;
+            this.label9.Text = "Translation and testing:\r\n    KralicekGamer\r\n     Email: kralicekgamer@gmail.com";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(112, 353);
+            this.label8.MaximumSize = new System.Drawing.Size(840, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(244, 68);
+            this.label8.TabIndex = 12;
+            this.label8.Text = "Leadership and Lead Developer:\r\n    Floxen \r\n     Email: yungrixxix@seznam.cz\r\n  " +
+    "   GitHub: https://github.com/yungrixxxi";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label7.Location = new System.Drawing.Point(20, 280);
+            this.label7.MaximumSize = new System.Drawing.Size(880, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(69, 17);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "Our team:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(36, 297);
+            this.label6.MaximumSize = new System.Drawing.Size(840, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(837, 34);
+            this.label6.TabIndex = 10;
+            this.label6.Text = resources.GetString("label6.Text");
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.Location = new System.Drawing.Point(19, 98);
+            this.label5.MaximumSize = new System.Drawing.Size(880, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(86, 17);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Key features:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(36, 115);
+            this.label4.MaximumSize = new System.Drawing.Size(840, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(836, 153);
+            this.label4.TabIndex = 8;
+            this.label4.Text = resources.GetString("label4.Text");
             // 
             // label1
             // 
@@ -1094,111 +1186,19 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "About";
             // 
-            // label4
+            // RunGame
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(36, 115);
-            this.label4.MaximumSize = new System.Drawing.Size(840, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(836, 153);
-            this.label4.TabIndex = 8;
-            this.label4.Text = resources.GetString("label4.Text");
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(19, 98);
-            this.label5.MaximumSize = new System.Drawing.Size(880, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 17);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Key features:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(36, 297);
-            this.label6.MaximumSize = new System.Drawing.Size(840, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(837, 34);
-            this.label6.TabIndex = 10;
-            this.label6.Text = resources.GetString("label6.Text");
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label7.Location = new System.Drawing.Point(20, 280);
-            this.label7.MaximumSize = new System.Drawing.Size(880, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(69, 17);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Our team:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(112, 353);
-            this.label8.MaximumSize = new System.Drawing.Size(840, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(244, 68);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "Leadership and Lead Developer:\r\n    Floxen \r\n     Email: yungrixxix@seznam.cz\r\n  " +
-    "   GitHub: https://github.com/yungrixxxi";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(375, 364);
-            this.label9.MaximumSize = new System.Drawing.Size(840, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(219, 51);
-            this.label9.TabIndex = 13;
-            this.label9.Text = "Translation and testing:\r\n    KralicekGamer\r\n     Email: kralicekgamer@gmail.com";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(636, 364);
-            this.label10.MaximumSize = new System.Drawing.Size(840, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(89, 51);
-            this.label10.TabIndex = 14;
-            this.label10.Text = "Translation:\r\n    Jiskra\r\n     Email: N/A";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label11.Location = new System.Drawing.Point(603, 422);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(175, 17);
-            this.label11.TabIndex = 5;
-            this.label11.Text = "This is open-source project!";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label12.Location = new System.Drawing.Point(20, 422);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(296, 17);
-            this.label12.TabIndex = 6;
-            this.label12.Text = "(C) Delta Devs 2024-present. All rights reserved.";
-            // 
-            // OpenGitLinkLbl
-            // 
-            this.OpenGitLinkLbl.AutoSize = true;
-            this.OpenGitLinkLbl.Location = new System.Drawing.Point(791, 422);
-            this.OpenGitLinkLbl.Name = "OpenGitLinkLbl";
-            this.OpenGitLinkLbl.Size = new System.Drawing.Size(120, 17);
-            this.OpenGitLinkLbl.TabIndex = 7;
-            this.OpenGitLinkLbl.TabStop = true;
-            this.OpenGitLinkLbl.Text = "GitHub(VcComHub)";
-            this.OpenGitLinkLbl.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.OpenGitLinkLbl_LinkClicked);
+            this.RunGame.Dock = System.Windows.Forms.DockStyle.Top;
+            this.RunGame.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RunGame.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.RunGame.Location = new System.Drawing.Point(0, 0);
+            this.RunGame.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.RunGame.Name = "RunGame";
+            this.RunGame.Size = new System.Drawing.Size(930, 38);
+            this.RunGame.TabIndex = 1;
+            this.RunGame.Text = "⬇ QUICK LAUNCH ⬇";
+            this.RunGame.UseVisualStyleBackColor = true;
+            this.RunGame.Click += new System.EventHandler(this.QuickLaunchBtn);
             // 
             // MainWindow
             // 
