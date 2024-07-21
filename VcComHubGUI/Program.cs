@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Threading;
 using System.Windows.Forms;
 using VcComHub.ConfigParser;
 using VcComHub.FileSystem;
@@ -120,7 +119,7 @@ namespace VcComHubGUI
 
             loadWindow.ShowDialog();
 
-            Application.Run(mainWindow);            
+            Application.Run(mainWindow);
         }
     }
 }

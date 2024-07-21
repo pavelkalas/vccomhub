@@ -1,7 +1,6 @@
 ﻿using DiscordRPC;
 using DiscordRPC.Logging;
 using System.Threading;
-using System.Windows.Forms.VisualStyles;
 
 // Copyright (c) 2024 Delta Devs. All rights reserved.
 // Permission is hereby granted, free of charge, to any person obtaining a copy
