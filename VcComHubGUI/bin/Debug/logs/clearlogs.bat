@@ -1,1 +1,0 @@
-@echo off && setlocal enabledelayedexpansion && for %%f in ("./*.txt") do ( echo 0> %%f ) && endlocal
