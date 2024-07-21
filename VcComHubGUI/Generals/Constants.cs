@@ -34,9 +34,9 @@ namespace VcComHubGUI
     {
         public static readonly string workingDirectory = Environment.CurrentDirectory;
 
-        public static readonly Color darkThemeBackground2 = Color.FromArgb(120, 120, 120);
-        public static readonly Color darkThemeBackground = Color.FromArgb(90, 90, 100);
-        public static readonly Color darkThemeText = Color.FromArgb(230, 230, 230);
+        public static readonly Color darkThemeBackground2 = Color.FromArgb(80, 80, 80);
+        public static readonly Color darkThemeBackground = Color.FromArgb(50, 50, 40);
+        public static readonly Color darkThemeText = Color.FromArgb(250, 250, 250);
 
         public static readonly string vcModuleName = "vietcong.exe";
         public static readonly string version = "1.65";
