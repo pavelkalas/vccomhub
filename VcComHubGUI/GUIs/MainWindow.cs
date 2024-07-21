@@ -1249,8 +1249,8 @@ namespace VcComHubGUI
 
                                 if (ignoreUnfocusedGameWindow)
                                 {
-                                    Memory.WriteIntToAddress(processId, "vietcong.exe", 0x1B758, 1);
-                                    Memory.WriteIntToAddress(processId, "vietcong.exe", 0x1B770, 1);
+                                    Memory.WriteIntToAddress(processId, Constants.vcModuleName, 0x1B758, 1);
+                                    Memory.WriteIntToAddress(processId, Constants.vcModuleName, 0x1B770, 1);
                                 }
                             }
 
@@ -1878,13 +1878,13 @@ namespace VcComHubGUI
         /// <param name="e"></param>
         private void RunGameBtn_Click(object sender, EventArgs e)
         {
-            if (File.Exists(vcGamePath + "\\vietcong.exe"))
+            if (File.Exists(vcGamePath + "\\" + Constants.vcModuleName))
             {
-                Loader.StartProcess("vietcong.exe", vcGamePath, null, null);
+                Loader.StartProcess(Constants.vcModuleName, vcGamePath, null, null);
             }
             else
             {
-                Logger.LogError(Language.GetStr(3011).Replace("%s", vcGamePath + "\\vietcong.exe"), Language.GetStr(2999));
+                Logger.LogError(Language.GetStr(3011).Replace("%s", vcGamePath + "\\" + Constants.vcModuleName), Language.GetStr(2999));
             }
         }
 
