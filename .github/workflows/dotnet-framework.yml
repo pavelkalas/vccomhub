@@ -1,35 +1,30 @@
-name: Windows Forms CI
+name: Build and Test
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main  # nebo název vaší hlavní větve
   pull_request:
-    branches: [ main ]
+    branches:
+      - main  # nebo název vaší hlavní větve
 
 jobs:
   build:
-
     runs-on: windows-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Setup MSBuild
-      uses: microsoft/setup-msbuild@v1.0.3
+      - name: Setup .NET Framework
+        uses: microsoft/setup-msbuild@v1
 
-    - name: Setup NuGet
-      uses: NuGet/setup-nuget@v1.0.5
+      - name: Restore NuGet packages
+        run: nuget restore VcComHubGUI.sln
 
-    - name: Restore NuGet packages
-      run: nuget restore
+      - name: Build project
+        run: msbuild VcComHubGUI.sln /p:Configuration=Release
 
-    - name: Build solution
-      run: msbuild YourSolution.sln /p:Configuration=Release
-
-    - name: Run tests
-      run: |
-        $testAssemblies = @(Get-ChildItem -Path . -Filter *.Test.dll -Recurse)
-        foreach ($test in $testAssemblies) {
-          & "C:\Program Files\dotnet\dotnet.exe" vstest $test.FullName
-        }
+      # Volitelně: Přidat krok pro spuštění testů, pokud máte nějaké
+      # - name: Run tests
+      #   run: dotnet test VcComHubGUI.Tests.dll
