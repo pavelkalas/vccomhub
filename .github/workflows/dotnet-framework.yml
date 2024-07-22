@@ -20,11 +20,11 @@ jobs:
         uses: microsoft/setup-msbuild@v1
 
       - name: Restore NuGet packages
-        run: nuget restore VcComHubGUI.sln
+        run: nuget restore VcComHubGUI/VcComHubGUI.sln  # Upravte cestu k souboru .sln
 
       - name: Build project
-        run: msbuild VcComHubGUI.sln /p:Configuration=Release
+        run: msbuild VcComHubGUI/VcComHubGUI.sln /p:Configuration=Release  # Upravte cestu k souboru .sln
 
       # Volitelně: Přidat krok pro spuštění testů, pokud máte nějaké
       # - name: Run tests
-      #   run: dotnet test VcComHubGUI.Tests.dll
+      #   run: dotnet test VcComHub/VcComHubGUI.Tests.dll
