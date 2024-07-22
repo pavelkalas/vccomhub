@@ -1,0 +1,35 @@
+name: Windows Forms CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1.0.3
+
+    - name: Setup NuGet
+      uses: NuGet/setup-nuget@v1.0.5
+
+    - name: Restore NuGet packages
+      run: nuget restore
+
+    - name: Build solution
+      run: msbuild YourSolution.sln /p:Configuration=Release
+
+    - name: Run tests
+      run: |
+        $testAssemblies = @(Get-ChildItem -Path . -Filter *.Test.dll -Recurse)
+        foreach ($test in $testAssemblies) {
+          & "C:\Program Files\dotnet\dotnet.exe" vstest $test.FullName
+        }
