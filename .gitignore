@@ -1,6 +1,6 @@
 VcComHubGUI/bin/
-VcComHubGUI/obj/
+*/obj/
 VcComHubGUI/Debug/
-VcComHubGUI/x64/
-VcComHubGUI/packages/
+*/x64/
+*/packages/
 VcComHubGUI/.vs/
