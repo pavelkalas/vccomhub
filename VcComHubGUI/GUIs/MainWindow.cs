@@ -489,12 +489,12 @@ namespace VcComHubGUI
             {
                 Invoke(new Action(() =>
                 {
-                    Text = "VcComHub v" + Constants.version + " active (by Floxen)";
+                    Text = "VcComHub v" + Constants.version + " active (by Pavel Kalas)";
                 }));
             }
             else
             {
-                Text = "VcComHub v" + Constants.version + " active (by Floxen)";
+                Text = "VcComHub v" + Constants.version + " active (by Pavel Kalas)";
             }
 
             if (darkMode)
@@ -975,7 +975,7 @@ namespace VcComHubGUI
 
                         Intercommunication.Setup(processId);
                         Intercommunication.SendString("");
-                        Intercommunication.SendString("> VcComHub v" + Constants.version + Constants.build + " active - https://github.com/yungrixxxi/vccomhub / https://yungrixxxi.xyz");
+                        Intercommunication.SendString("> VcComHub v" + Constants.version + Constants.build + " active - https://github.com/pavelkalas/vccomhub.git / https://yungrixxxi.xyz");
                         Intercommunication.SendString("");
 
                         if (selectedServerIPandPort != null && selectedServerName != null)
@@ -1007,7 +1007,7 @@ namespace VcComHubGUI
                                 {
                                     Memory.WriteIntToAddress(processId, "game.dll", 0x779284, 1);
 
-                                    string[] messages = { "VcComHub v" + Constants.version + Constants.build, "fps: %3.1f   coord: %2.1f / %2.1f" };
+                                    string[] messages = { "VcComHub v" + Constants.version + Constants.build + " by Pavel Kalas", "fps: %3.1f   coord: %2.1f / %2.1f" };
 
                                     while (Processes.IsProcessRunning(processId))
                                     {
@@ -1064,7 +1064,7 @@ namespace VcComHubGUI
                                                 Intercommunication.SendString("| chtgrenades        ->  Gives you a grenades!");
                                                 Intercommunication.SendString("| chtcannibals       ->  Sets a indian masks to every character!");
                                                 Intercommunication.SendString("+----------------------------------------------------------------------------");
-                                                Intercommunication.SendString("+ Menu added by Floxen");
+                                                Intercommunication.SendString("+ Menu added by Pavel Kalas");
                                                 Intercommunication.SendString("");
                                                 Memory.WriteIntToAddress(processId, "logs.dll", 0x36B4FC, 1);
                                             }
@@ -1476,7 +1476,7 @@ namespace VcComHubGUI
         private void FetchMaster()
         {
             L4u.WriteLog("logs\\events.txt", "FetchMaster() : VOID", L4u.LogType.EVENT);
-
+            
             if (!isFetching)
             {
                 RefreshServersBtn.Text = Language.GetStr(1051);
@@ -1930,7 +1930,7 @@ namespace VcComHubGUI
         /// <param name="e"></param>
         private void OpenGitLinkLbl_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("https://github.com/yungrixxxi/vccomhub");
+            Process.Start("https://github.com/pavelkalas/vccomhub.git");
         }
     }
 }

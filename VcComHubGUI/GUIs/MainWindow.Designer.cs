@@ -1111,7 +1111,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(219, 51);
             this.label9.TabIndex = 13;
-            this.label9.Text = "Translation and testing:\r\n    KralicekGamer\r\n     Email: kralicekgamer@gmail.com";
+            this.label9.Text = "Translation and testing:\r\n    Matěj Adamec\r\n     Email: kralicekgamer@gmail.com";
             // 
             // label8
             // 
@@ -1121,8 +1121,8 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(244, 68);
             this.label8.TabIndex = 12;
-            this.label8.Text = "Leadership and Lead Developer:\r\n    Floxen \r\n     Email: yungrixxix@seznam.cz\r\n  " +
-    "   GitHub: https://github.com/yungrixxxi";
+            this.label8.Text = "Leadership and Lead Developer:\r\n    Pavel Kalaš \r\n     Email: yungrixxix@seznam.c" +
+    "z\r\n     GitHub: https://github.com/yungrixxxi";
             // 
             // label7
             // 

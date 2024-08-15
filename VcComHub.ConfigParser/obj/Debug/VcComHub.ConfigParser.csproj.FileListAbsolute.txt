@@ -22,3 +22,9 @@ C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.ConfigParser\obj\Debug\Vc
 C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.ConfigParser\obj\Debug\VcComHub.ConfigParser.csproj.CoreCompileInputs.cache
 C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.ConfigParser\obj\Debug\VcComHub.ConfigParser.dll
 C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.ConfigParser\obj\Debug\VcComHub.ConfigParser.pdb
+C:\Users\mirda\source\repos\vccomhub\VcComHub.ConfigParser\bin\Debug\VcComHub.ConfigParser.dll
+C:\Users\mirda\source\repos\vccomhub\VcComHub.ConfigParser\bin\Debug\VcComHub.ConfigParser.pdb
+C:\Users\mirda\source\repos\vccomhub\VcComHub.ConfigParser\obj\Debug\VcComHub.ConfigParser.csproj.AssemblyReference.cache
+C:\Users\mirda\source\repos\vccomhub\VcComHub.ConfigParser\obj\Debug\VcComHub.ConfigParser.csproj.CoreCompileInputs.cache
+C:\Users\mirda\source\repos\vccomhub\VcComHub.ConfigParser\obj\Debug\VcComHub.ConfigParser.dll
+C:\Users\mirda\source\repos\vccomhub\VcComHub.ConfigParser\obj\Debug\VcComHub.ConfigParser.pdb

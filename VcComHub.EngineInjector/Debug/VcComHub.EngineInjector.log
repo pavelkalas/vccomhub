@@ -1,8 +1,8 @@
 ﻿  pch.cpp
   GameFuncDetour.cpp
   NamedPipeServer.cpp
-C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHub.EngineInjector\NamedPipeServer.cpp(164,6): warning C4273: StartNamedPipeServer: nekonzistentní propojení dll
+C:\Users\mirda\source\repos\vccomhub\VcComHub.EngineInjector\NamedPipeServer.cpp(164,6): warning C4273: StartNamedPipeServer: nekonzistentní propojení dll
   Generování kódu...
-     Vytváří se knihovna C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHubGUI\Debug\VcComHub.EngineInjector.lib a objekt C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHubGUI\Debug\VcComHub.EngineInjector.exp.
+     Vytváří se knihovna C:\Users\mirda\source\repos\vccomhub\VcComHubGUI\Debug\VcComHub.EngineInjector.lib a objekt C:\Users\mirda\source\repos\vccomhub\VcComHubGUI\Debug\VcComHub.EngineInjector.exp.
 LINK : warning LNK4217: symbol _StartNamedPipeServer definovaný v NamedPipeServer.obj importuje GameFuncDetour.obj ve funkci "unsigned long __stdcall EntryPoint(void *)" (?EntryPoint@@YGKPAX@Z)
-  VcComHub.EngineInjector.vcxproj -> C:\Users\Yung Ricci\Desktop\VcComHub\vccomhub\VcComHubGUI\Debug\VcComHub.EngineInjector.dll
+  VcComHub.EngineInjector.vcxproj -> C:\Users\mirda\source\repos\vccomhub\VcComHubGUI\Debug\VcComHub.EngineInjector.dll

@@ -68,9 +68,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(14, 175);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 14);
+            this.label2.Size = new System.Drawing.Size(143, 14);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Created by Floxen ❤️";
+            this.label2.Text = "Created by Pavel Kalaš ❤️";
             // 
             // LoadingWindow
             // 
