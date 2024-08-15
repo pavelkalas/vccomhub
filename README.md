@@ -23,7 +23,7 @@ VcComHub is a result of collaboration by a passionate team dedicated to enhancin
     Email: [yungrixxix@seznam.cz](mailto:yungrixxix@seznam.cz)
 
 - **Testers & Translators**:
-  - **KralicekGamer**  
+  - **Matěj Adamec**  
     Email: [kralicekgamer@gmail.com](mailto:kralicekgamer@gmail.com)
   - **Jiskra**
 
