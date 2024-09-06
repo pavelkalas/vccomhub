@@ -1,0 +1,13 @@
+**GUI**
+- server sorting by players map name etc.
+- favorite servers
+
+- quick lanch -> play
+              -> play with addon -> choose addon 
+                                 -> import addon
+              -> cancel
+- if addon doesnt imported yet, skip choosing play with/without
+- if is only one addon installed skip choosing addon
+- quick launch ideas can be available in settings 
+
+- on install try to search vietcong on [Disk(C, D ...)]:/Vietcong and ./games/vietcong
