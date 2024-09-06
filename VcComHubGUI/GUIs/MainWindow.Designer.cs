@@ -34,8 +34,6 @@
             this.OpenGitLinkLbl = new System.Windows.Forms.LinkLabel();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.SectionsLbl = new System.Windows.Forms.Label();
-            this.SectionDescribeLbl = new System.Windows.Forms.Label();
             this.WhatWeDoinLbl = new System.Windows.Forms.Label();
             this.WhatWeDoinTextLbl = new System.Windows.Forms.Label();
             this.WelcomeLbl = new System.Windows.Forms.Label();
@@ -123,6 +121,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.RunGame = new System.Windows.Forms.Button();
+            this.SectionsLbl = new System.Windows.Forms.Label();
+            this.SectionDescribeLbl = new System.Windows.Forms.Label();
             this.TabPageControl.SuspendLayout();
             this.WelcomeTab.SuspendLayout();
             this.ConfigurationTab.SuspendLayout();
@@ -208,28 +208,6 @@
             this.label11.Size = new System.Drawing.Size(175, 17);
             this.label11.TabIndex = 5;
             this.label11.Text = "This is open-source project!";
-            // 
-            // SectionsLbl
-            // 
-            this.SectionsLbl.AutoSize = true;
-            this.SectionsLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.SectionsLbl.Location = new System.Drawing.Point(30, 206);
-            this.SectionsLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.SectionsLbl.Name = "SectionsLbl";
-            this.SectionsLbl.Size = new System.Drawing.Size(61, 17);
-            this.SectionsLbl.TabIndex = 4;
-            this.SectionsLbl.Text = "Sections:";
-            // 
-            // SectionDescribeLbl
-            // 
-            this.SectionDescribeLbl.AutoSize = true;
-            this.SectionDescribeLbl.Location = new System.Drawing.Point(30, 235);
-            this.SectionDescribeLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.SectionDescribeLbl.MaximumSize = new System.Drawing.Size(720, 0);
-            this.SectionDescribeLbl.Name = "SectionDescribeLbl";
-            this.SectionDescribeLbl.Size = new System.Drawing.Size(478, 68);
-            this.SectionDescribeLbl.TabIndex = 3;
-            this.SectionDescribeLbl.Text = resources.GetString("SectionDescribeLbl.Text");
             // 
             // WhatWeDoinLbl
             // 
@@ -1200,6 +1178,28 @@
             this.RunGame.UseVisualStyleBackColor = true;
             this.RunGame.Click += new System.EventHandler(this.QuickLaunchBtn);
             // 
+            // SectionsLbl
+            // 
+            this.SectionsLbl.AutoSize = true;
+            this.SectionsLbl.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.SectionsLbl.Location = new System.Drawing.Point(30, 206);
+            this.SectionsLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.SectionsLbl.Name = "SectionsLbl";
+            this.SectionsLbl.Size = new System.Drawing.Size(61, 17);
+            this.SectionsLbl.TabIndex = 4;
+            this.SectionsLbl.Text = "Sections:";
+            // 
+            // SectionDescribeLbl
+            // 
+            this.SectionDescribeLbl.AutoSize = true;
+            this.SectionDescribeLbl.Location = new System.Drawing.Point(30, 235);
+            this.SectionDescribeLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.SectionDescribeLbl.MaximumSize = new System.Drawing.Size(720, 0);
+            this.SectionDescribeLbl.Name = "SectionDescribeLbl";
+            this.SectionDescribeLbl.Size = new System.Drawing.Size(478, 68);
+            this.SectionDescribeLbl.TabIndex = 3;
+            this.SectionDescribeLbl.Text = resources.GetString("SectionDescribeLbl.Text");
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -1307,8 +1307,6 @@
         private System.Windows.Forms.CheckBox StartGameWithoutAskCheck;
         private System.Windows.Forms.CheckBox ShowFpsCheck;
         private System.Windows.Forms.CheckBox ShowProfCheck;
-        private System.Windows.Forms.Label SectionsLbl;
-        private System.Windows.Forms.Label SectionDescribeLbl;
         private System.Windows.Forms.TabPage DeveloperTab;
         private System.Windows.Forms.GroupBox QuickAccessGrp;
         private System.Windows.Forms.Button OpenGameFolderBtn;
@@ -1346,6 +1344,8 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.LinkLabel OpenGitLinkLbl;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label SectionsLbl;
+        private System.Windows.Forms.Label SectionDescribeLbl;
     }
 }
 

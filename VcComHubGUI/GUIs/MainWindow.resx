@@ -117,6 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="SectionDescribeLbl.Text" xml:space="preserve">
+    <value>WELCOME - Welcome page
+CONFIGURATION - Here you find configuration of VcComHub and game..
+MULTIPLAYER - Join online world of players, don't let this masterpiece die!
+IN-GAME CHAT - You can chat with players from here, if you not are in game yet.</value>
+  </data>
+  <data name="WhatWeDoinTextLbl.Text" xml:space="preserve">
+    <value>We are developing a program for the game Vietcong 1, which is quite old, dating back to 2003. We are creating an application called VcComHub that allows players to connect to a game server with any game mode from a single place. Our goal is to connect players and clans, bringing the community together to revive this game and ensure it doesn't fade into obscurity. By centralizing server access and fostering a vibrant player base, we aim to breathe new life into Vietcong 1 and keep its legacy alive.</value>
+  </data>
   <data name="label6.Text" xml:space="preserve">
     <value>VcComHub is a product of collaboration and dedication by a team of passionate individuals who have put their hearts into making this project a success. We are Delta Devs, a group of developers, testers, and translators united by our love for gaming and technology.
 </value>
@@ -130,15 +139,6 @@ Developer Tools: We understand the importance of a smooth development process. O
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Welcome to VcComHub, an innovative application designed specifically for Vietcong enthusiasts. VcComHub revolutionizes the way players connect to servers by allowing them to join with all necessary addons through a single icon. This streamlined process eliminates the hassle of managing multiple addons and enhances the overall gaming experience.</value>
-  </data>
-  <data name="SectionDescribeLbl.Text" xml:space="preserve">
-    <value>WELCOME - Welcome page
-CONFIGURATION - Here you find configuration of VcComHub and game..
-MULTIPLAYER - Join online world of players, don't let this masterpiece die!
-IN-GAME CHAT - You can chat with players from here, if you not are in game yet.</value>
-  </data>
-  <data name="WhatWeDoinTextLbl.Text" xml:space="preserve">
-    <value>We are developing a program for the game Vietcong 1, which is quite old, dating back to 2003. We are creating an application called VcComHub that allows players to connect to a game server with any game mode from a single place. Our goal is to connect players and clans, bringing the community together to revive this game and ensure it doesn't fade into obscurity. By centralizing server access and fostering a vibrant player base, we aim to breathe new life into Vietcong 1 and keep its legacy alive.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
