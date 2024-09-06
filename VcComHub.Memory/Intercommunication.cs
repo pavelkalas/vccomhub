@@ -36,7 +36,7 @@ namespace VcComHub.Memory
         /// <summary>
         /// Nastavit pID pro proces kde má probíhat interkomunikace.
         /// </summary>
-        /// <param name="pID"></param>
+        /// <param name="pID">Process ID</param>
         public static void Setup(int pID)
         {
             pid = pID;
@@ -45,8 +45,8 @@ namespace VcComHub.Memory
         /// <summary>
         /// Odešle data na předdefinované namedpipes.
         /// </summary>
-        /// <param name="text"></param>
-        /// <param name="pID"></param>
+        /// <param name="text">Data</param>
+        /// <param name="pID">Process ID</param>
         public static void SendDataToMemory(string text)
         {
             using (NamedPipeClientStream pipeClient = new NamedPipeClientStream(".", pid.ToString(), PipeDirection.Out))
@@ -64,7 +64,7 @@ namespace VcComHub.Memory
         /// <summary>
         /// Pošle string do konzole hry.
         /// </summary>
-        /// <param name="str"></param>
+        /// <param name="str">Data</param>
         public static void SendString(string str)
         {
             SendDataToMemory(str);
@@ -73,7 +73,7 @@ namespace VcComHub.Memory
         /// <summary>
         /// Nastaví status konzole, TRUE = otevřená | FALSE = zavřená.
         /// </summary>
-        /// <param name="isOpen"></param>
+        /// <param name="isOpen">Pokuď je TRUE, tak se konzole otevře, pokuď FALSE tak se zavře</param>
         public static void ConsoleOpened(bool isOpen)
         {
             if (isOpen)
@@ -89,7 +89,7 @@ namespace VcComHub.Memory
         /// <summary>
         /// Funkce přes kterou mohu odeslat zprávu na serveru jako hráč.
         /// </summary>
-        /// <param name="str"></param>
+        /// <param name="str">Data</param>
         public static void SendMessageToServerAsPlayer(string str, bool publicChat)
         {
             if (publicChat)
@@ -105,7 +105,7 @@ namespace VcComHub.Memory
         /// <summary>
         /// Odešle příkaz do hry do konzole.
         /// </summary>
-        /// <param name="str"></param>
+        /// <param name="str">Data</param>
         public static void ConsoleCommand(string str)
         {
             SendDataToMemory("cmd+" + str);
